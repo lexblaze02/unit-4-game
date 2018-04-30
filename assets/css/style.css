@@ -1,0 +1,67 @@
+body{
+background-color: royalblue;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.wrapper {
+    width: 40%;
+    background-color: rgb(21, 255, 0);
+    color: rgb(81, 0, 128);
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.list {
+    border: 2px solid pink;
+    background-color: hotpink;
+    color: rgb(81, 0, 128);
+    width: 40%;
+    padding: 10px;
+    font-family: fantasy;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+img {
+    height: 100px;
+    width: 70px;
+    padding: 5px;
+}
+
+.match {
+    border: 2px solid rgb(192, 255, 211);
+    background-color: rgb(243, 152, 47);
+    width: 20%;
+    height: 150px;
+}
+
+.WL {
+    border: 2px solid rgb(192, 255, 211);
+    background-color: rgb(243, 152, 47);
+    width: 20%;
+    height: 150px;
+}
+
+.userScore {
+    border: 2px solid rgb(192, 255, 211);
+    background-color: rgb(243, 152, 47);
+    width: 30%;
+    height: 35px;
+}
+
+.match, .WL{
+	float: left;
+	width: 15%;
+    height: 60px;
+}
+
+.crystals{
+    clear: both;
+}

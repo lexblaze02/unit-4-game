@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">Crystal Cache</div>
+
+    <ul class="list">
+        <li>You will be given a random number at the start of the game.</li>
+        <br>
+        <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+        <br>
+        <li>You win the game by matching your total score to the random number.You lose the game if your total score goes above the random number.</li>
+        <br>
+        <li>The value of each crystal is hidden from you until you click on it.</li>
+        <br>
+        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+    </ul>
+            
+            <div class="match">Number to Match:
+                <span id="randomNumber"></span>
+            </div>
+    
+            <div class="WL">
+                <h4> Wins:</h4>
+                <span id="numberOfWins"></span>
+                <br>
+                <h4>Losses:</h4>
+                <span id="numberOfLosses"></span>
+            </div>
+            </div>
+
+    <div class="crystals">
+       <img src="assets/images/purple.png" id="purple" alt="purple gem">
+       <img src="assets/images/yellow.png" id="yellow" alt="yellow gem">
+       <img src="assets/images/green.png" id="green" alt="green gem">
+       <img src="assets/images/blue.png" id="blue" alt="blue gem">
+    </div>
+
+    <div class="userScore"> Your total score is:
+    <span class="finalScore"></span>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
